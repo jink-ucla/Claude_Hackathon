@@ -1,0 +1,218 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "dct": "http://purl.org/dc/terms/",
+    "sc": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    }
+  },
+  "@type": "Dataset",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "Primary Human CD4+ T Cell Perturb-seq D2 Stim8Hr",
+  "description": "This dataset comprises single-cell RNA sequencing (scRNA-seq) data obtained from genome-scale Perturb-seq experiments in primary human CD4+ T cells. It captures transcriptional profiles from systematic perturbations of all expressed genes across 22 million cells from a donor under one of three stimulation conditions, facilitating the study of gene regulatory networks, helper T cell polarization, and immune cell state landscapes.",
+  "license": "https://mit-license.org/",
+  "version": "1.0.0",
+  "datePublished": "2025-12-22",
+  "identifier": "marson_D2_Stim8hr.assigned_guide",
+  "url": "https://virtualcellmodels.cziscience.com/dataset/genome-scale-tcell-perturb-seq",
+  "keywords": [
+    "single-cell",
+    "Billion Cell Project",
+    "Marson"
+  ],
+  "citeAs": "unpublished",
+  "creator": [
+    {
+      "@type": "Person",
+      "name": "Ronghui Zhu"
+    },
+    {
+      "@type": "Person",
+      "name": "Emma Dann"
+    },
+    {
+      "@type": "Person",
+      "name": "Jun Yan"
+    },
+    {
+      "@type": "Person",
+      "name": "Justine Reyes Retana"
+    },
+    {
+      "@type": "Person",
+      "name": "Ryunosuke Goto"
+    },
+    {
+      "@type": "Person",
+      "name": "Reese C. Guitche"
+    },
+    {
+      "@type": "Person",
+      "name": "Lillian K. Petersen"
+    },
+    {
+      "@type": "Person",
+      "name": "Mineto Ota"
+    },
+    {
+      "@type": "Person",
+      "name": "Brian R. Shy"
+    },
+    {
+      "@type": "Person",
+      "name": "Jonathan K. Pritchard"
+    },
+    {
+      "@type": "Person",
+      "name": "Alexander Marson"
+    }
+  ],
+  "variableMeasured": [
+    {
+      "@type": "PropertyValue",
+      "name": "domain",
+      "value": "transcriptomics",
+      "description": "Scientific domain or modality of the dataset"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "assay",
+      "value": [
+        "10x gene expression flex"
+      ],
+      "description": "Experimental assay used"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "assay_ontology_term_id",
+      "value": [
+        "EFO:0022606"
+      ],
+      "description": "Ontology term ID for the assay"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "organism",
+      "value": [
+        "Homo sapiens"
+      ],
+      "description": "Taxonomic classification of the organism"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "organism_ontology_term_id",
+      "value": [
+        "NCBITaxon:9606"
+      ],
+      "description": "Ontology term ID for the organism"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tissue",
+      "value": [
+        "blood"
+      ],
+      "description": "Tissue or cell type analyzed"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tissue_ontology_term_id",
+      "value": [
+        "UBERON:0000178"
+      ],
+      "description": "Ontology term ID for the tissue"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "tissue_type",
+      "value": [
+        "tissue"
+      ],
+      "description": "Type of tissue sample"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "disease",
+      "value": [
+        "normal"
+      ],
+      "description": "Disease status of the samples"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "disease_ontology_term_id",
+      "value": [
+        "PATO:0000461"
+      ],
+      "description": "Ontology term ID for the disease status"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "development_stage",
+      "value": [
+        "22-year-old-stage"
+      ],
+      "description": "Developmental stage of the organism"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "development_stage_ontology_term_id",
+      "value": [
+        "HsapDv:0000116"
+      ],
+      "description": "Ontology term ID for the development stage"
+    }
+  ],
+  "dataUseCases": [
+    "Researchers and scientists in genomics and cellular biology. Bioinformaticians analyzing single-cell data. Researchers building models to predict perturbation response across perturbation type and cell types"
+  ],
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "h5ad-file",
+      "name": "h5ad-file",
+      "description": "Data file accessible via h5ad",
+      "contentUrl": "s3://genome-scale-tcell-perturb-seq/marson2025_data/D2_Stim8hr.assigned_guide.h5ad",
+      "encodingFormat": "application/h5ad",
+      "md5": "00000000000000000000000000000000"
+    }
+  ]
+}

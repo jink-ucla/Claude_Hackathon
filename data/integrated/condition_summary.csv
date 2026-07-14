@@ -1,0 +1,4 @@
+condition,n_perturbations,n_ontarget_significant,n_strong_regulator,median_n_downstream,n_efficient_kd,n_reproducible_donor,n_polarization_reg,n_aging_reg,n_autoimmune_enriched,n_score_ge_5,n_score_ge_6
+Rest,11287,6869,2459,2.0,9269,756,707,251,5,1111,507
+Stim8hr,11415,7154,2630,2.0,9501,864,742,271,123,1272,660
+Stim48hr,11281,7193,2481,2.0,9435,896,739,253,18,1172,577

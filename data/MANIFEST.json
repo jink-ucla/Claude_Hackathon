@@ -1,0 +1,250 @@
+{
+  "data/clean/de_stats.csv": {
+    "rows": 33983,
+    "cols": 16,
+    "columns": [
+      "obs_key",
+      "gene",
+      "gene_id",
+      "condition",
+      "n_cells_target",
+      "target_baseMean",
+      "n_up_genes",
+      "n_down_genes",
+      "n_total_de_genes",
+      "n_downstream",
+      "n_total_genes_category",
+      "ontarget_effect_size",
+      "ontarget_significant",
+      "ontarget_effect_category",
+      "offtarget_flag",
+      "is_strong_regulator"
+    ],
+    "note": "one row per perturbation x condition; trans-effect breadth + on-target QC"
+  },
+  "data/clean/kd_efficiency_by_gene.csv": {
+    "rows": 37578,
+    "cols": 6,
+    "columns": [
+      "gene_id",
+      "condition",
+      "n_guides_tested",
+      "n_guides_signif_kd",
+      "best_kd_tstat",
+      "frac_guides_signif_kd"
+    ],
+    "note": "CRISPRi knockdown efficiency aggregated to gene x condition"
+  },
+  "data/clean/donor_reproducibility.csv": {
+    "rows": 4880,
+    "cols": 5,
+    "columns": [
+      "gene",
+      "gene_id",
+      "condition",
+      "donor_correlation_mean",
+      "donor_correlation_min"
+    ],
+    "note": "cross-donor DE z-score correlation per gene x condition"
+  },
+  "data/clean/guide_reproducibility.csv": {
+    "rows": 3052,
+    "cols": 5,
+    "columns": [
+      "gene",
+      "condition",
+      "guide_correlation",
+      "correlation_ceiling",
+      "n_signif_union"
+    ],
+    "note": "cross-guide DE z-score correlation per gene x condition"
+  },
+  "data/clean/cluster_annotations.csv": {
+    "rows": 112,
+    "cols": 10,
+    "columns": [
+      "cluster",
+      "manual_annotation",
+      "best_described_by",
+      "condition_specificity",
+      "cluster_size",
+      "cluster_gene_size",
+      "intracluster_corr",
+      "rest_count",
+      "stim8hr_count",
+      "stim48hr_count"
+    ],
+    "note": "one row per HDBSCAN GRN cluster with annotation + condition specificity"
+  },
+  "data/clean/cluster_membership.csv": {
+    "rows": 2799,
+    "cols": 6,
+    "columns": [
+      "gene",
+      "condition",
+      "cluster",
+      "manual_annotation",
+      "best_described_by",
+      "condition_specificity"
+    ],
+    "note": "GRN module membership per gene x condition"
+  },
+  "data/clean/cluster_autoimmune.csv": {
+    "rows": 231,
+    "cols": 7,
+    "columns": [
+      "cluster",
+      "condition",
+      "autoimmune_or",
+      "autoimmune_fdr",
+      "cluster_size",
+      "in_cluster_in_disease",
+      "intersecting_genes"
+    ],
+    "note": "autoimmune-disease enrichment of each GRN cluster's downstream genes, per condition"
+  },
+  "data/clean/polarization_regulators.csv": {
+    "rows": 11586,
+    "cols": 5,
+    "columns": [
+      "gene",
+      "condition",
+      "activation_coef_rank",
+      "polarization_coef_rank",
+      "is_known_polarization_reg"
+    ],
+    "note": "activation & Th2/Th1-polarization regulator coef_rank per gene x condition"
+  },
+  "data/clean/aging_regulators.csv": {
+    "rows": 7682,
+    "cols": 4,
+    "columns": [
+      "gene",
+      "condition",
+      "aging_coef_rank",
+      "is_known_aging_reg"
+    ],
+    "note": "CD4T aging-signature regulator coef_rank per gene x condition"
+  },
+  "data/clean/k562_comparison.csv": {
+    "rows": 5640,
+    "cols": 5,
+    "columns": [
+      "gene",
+      "condition",
+      "k562_logfc_r",
+      "k562_donor_corr_mean",
+      "n_degs_mash"
+    ],
+    "note": "K562-vs-CD4 logFC correlation (cell-type specificity) per gene x condition"
+  },
+  "data/clean/il10il21_validation.csv": {
+    "rows": 13,
+    "cols": 6,
+    "columns": [
+      "gene",
+      "il10_perc",
+      "il21_perc",
+      "n_donors_val",
+      "il10_log2fc_vs_ntc",
+      "il21_log2fc_vs_ntc"
+    ],
+    "note": "arrayed flow-cytometry IL10/IL21 validation per perturbation (all conditions)"
+  },
+  "data/integrated/regulator_master.csv": {
+    "rows": 33983,
+    "cols": 46,
+    "columns": [
+      "gene",
+      "gene_id",
+      "condition",
+      "n_cells_target",
+      "target_baseMean",
+      "ontarget_significant",
+      "ontarget_effect_size",
+      "ontarget_effect_category",
+      "offtarget_flag",
+      "n_up_genes",
+      "n_down_genes",
+      "n_total_de_genes",
+      "n_downstream",
+      "n_total_genes_category",
+      "is_strong_regulator",
+      "n_guides_tested",
+      "n_guides_signif_kd",
+      "frac_guides_signif_kd",
+      "best_kd_tstat",
+      "is_efficient_kd",
+      "donor_correlation_mean",
+      "donor_correlation_min",
+      "is_reproducible_donor",
+      "guide_correlation",
+      "is_reproducible_guide",
+      "cluster",
+      "cluster_annotation",
+      "condition_specificity",
+      "in_grn_module",
+      "autoimmune_or",
+      "autoimmune_fdr",
+      "is_autoimmune_enriched",
+      "activation_coef_rank",
+      "polarization_coef_rank",
+      "is_known_polarization_reg",
+      "is_polarization_regulator",
+      "aging_coef_rank",
+      "is_known_aging_reg",
+      "is_aging_regulator",
+      "k562_logfc_r",
+      "n_degs_mash",
+      "is_cd4_specific",
+      "il10_log2fc_vs_ntc",
+      "il21_log2fc_vs_ntc",
+      "is_il_validated",
+      "regulator_score"
+    ],
+    "note": "MASTER: one row per perturbed gene x condition, all evidence layers + regulator_score"
+  },
+  "data/integrated/condition_summary.csv": {
+    "rows": 3,
+    "cols": 12,
+    "columns": [
+      "condition",
+      "n_perturbations",
+      "n_ontarget_significant",
+      "n_strong_regulator",
+      "median_n_downstream",
+      "n_efficient_kd",
+      "n_reproducible_donor",
+      "n_polarization_reg",
+      "n_aging_reg",
+      "n_autoimmune_enriched",
+      "n_score_ge_5",
+      "n_score_ge_6"
+    ],
+    "note": "per-condition rollup of the master table"
+  },
+  "data/integrated/cluster_summary.csv": {
+    "rows": 112,
+    "cols": 17,
+    "columns": [
+      "cluster",
+      "manual_annotation",
+      "best_described_by",
+      "condition_specificity",
+      "cluster_size",
+      "cluster_gene_size",
+      "intracluster_corr",
+      "rest_count",
+      "stim8hr_count",
+      "stim48hr_count",
+      "n_member_gene_conditions",
+      "n_member_genes",
+      "mean_regulator_score",
+      "top_members",
+      "best_autoimmune_or",
+      "min_autoimmune_fdr",
+      "is_autoimmune_enriched"
+    ],
+    "note": "per GRN cluster: annotation, membership, autoimmune enrichment"
+  }
+}

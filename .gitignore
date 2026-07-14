@@ -1,0 +1,22 @@
+# Python environment (machine-specific — rebuild via README)
+.venv312/
+.venv/
+__pycache__/
+*.pyc
+
+# Large processed AnnData/MuData objects (fetch on demand; see README/GROUNDING)
+GWCD4i.DE_stats.h5ad
+GWCD4i.*.h5mu
+GWCD4i.pseudobulk_merged.h5ad
+
+# Large unused supplementary table (available upstream from emdann/GWT_perturbseq_analysis_2025)
+suppl_tables/clustering_downstream_genes.csv
+
+# Download helper artifacts + OS junk
+_download*
+.DS_Store
+
+# Submission-workflow helpers (kept local, not published)
+HOW_TO_PUBLISH.md
+SUBMISSION_FORM.md
+PASTE_INTO_FORM.md

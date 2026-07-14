@@ -1,0 +1,113 @@
+cluster,manual_annotation,best_described_by,condition_specificity,cluster_size,cluster_gene_size,intracluster_corr,rest_count,stim8hr_count,stim48hr_count
+0,Integrator complex,Integrator complex,across_condition,20,7,0.398472198,6,7,7
+1,RFX1/FOXN2 complex,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,6,2,0.333651754,2,2,2
+2,Ino80 complex,Ino80 complex,across_condition,29,11,0.243528342,9,10,10
+3,"STAG2-PAXIP1/PAGR1, genome stability",MLL3/4 complex,across_condition,9,3,0.317833529,3,3,3
+4,unknown,Sin3 complex,across_condition,6,2,0.371634235,2,2,2
+5,MCTS1/DENR complex,"Hydroxycarboxylic acid-binding receptors, and MCT-1/Tma20",across_condition,6,2,0.427679133,2,2,2
+6,unknown,Sin3 complex,across_condition,13,6,0.264729993,4,6,3
+7,nonsense-mediated decay,"Nonsense-mediated mRNA decay, and ASAP complex",across_condition,25,10,0.332353988,10,9,6
+8,peptidyl-diphthamide metabolism,Peptidyl-diphthamide metabolic process,across_condition,11,7,0.229311684,5,0,6
+9,mediator-SAGA,SAGA complex,across_condition,34,34,0.364603722,0,0,34
+10,mediator-SAGA,SAGA complex,across_condition,70,42,0.340361801,29,41,0
+11,TAF11/13 complex,"mixed, incl. Spermine transport, and protein-DNA complex remodeling",across_condition,4,2,0.457618452,2,2,0
+12,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,4,2,0.263314979,2,2,0
+13,CHD4/MTA2 complex,NuRD complex,across_condition,6,2,0.319351943,2,2,2
+14,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,4,4,0.268350391,0,4,0
+15,ribosomal and mitochrondrial function,Organellar ribosome,across_condition,88,88,0.368599965,0,88,0
+16,DCP2/DDX6 complex,mRNA decay by 5 to 3 exoribonuclease,across_condition,6,2,0.296368703,2,2,2
+17,genome defense,"Fibronectin-III type domain, and ARF7 effector protein, C-terminal",across_condition,14,5,0.238202126,5,4,5
+18,share bidirectional promoter,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,5,2,0.356752662,1,2,2
+19,NCOR/HDAC3 complex,"Loss of MECP2 binding ability to the NCoR/SMRT complex, and Y-linked deafness 2",across_condition,12,6,0.153912879,5,6,1
+20,PAF1 complex,"Transcription elongation factor complex, and RNA polymerase II, core complex",across_condition,8,3,0.290110736,2,3,3
+21,TCR signaling,Arp2/3 protein complex,Stim8hr,137,135,0.245736707,2,135,0
+22,TCR signaling,"Alpha-beta T cell receptor complex, and Pneumocystosis",Stim8hr_Stim48hr,11,11,0.8183773,0,11,0
+23,RNA exosome,Nuclear exosome (RNase complex),across_condition,4,4,0.257624778,0,4,0
+24,unknown,"Exosome (RNase complex), and TRAMP complex",across_condition,13,7,0.2130993,3,6,4
+25,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Rest,16,14,0.149448409,14,1,1
+26,unknown,"mixed, incl. Fatty acid metabolism, and Regulation of lipid storage",Rest,26,23,0.157826484,23,2,1
+27,unknown,"mixed, incl. Essential tremor 5, and Glioma pathogenesis-related protein 1-like, SCP domain",Rest,215,215,0.385659526,215,0,0
+28,ribosomal and mitochrondrial function,Organellar ribosome,across_condition,49,49,0.289242197,49,0,0
+29,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Rest,4,4,0.182569866,4,0,0
+30,unknown,"mixed, incl. Adermatoglyphia, and Regulation of transposon integration",Rest,87,87,0.222387607,87,0,0
+31,Ragulator-Rag complex,Amino acids regulate mTORC1,across_condition,12,12,0.379515033,0,0,12
+32,Ragulator-Rag complex,Amino acids regulate mTORC1,across_condition,13,11,0.28176607,1,11,1
+33,elongator complex,tRNA wobble uridine modification,across_condition,31,13,0.283667524,11,13,7
+34,peptidyl-diphthamide metabolism,Peptidyl-diphthamide metabolic process,across_condition,6,6,0.293046792,0,6,0
+35,unknown,"mostly uncharacterized, incl. CTLH, C-terminal LisH motif, and Fez1",across_condition,51,37,0.188836312,15,32,4
+36,citrate metabolism,"Citrate cycle (TCA cycle), and Pyruvate metabolism",Stim48hr,8,8,0.347846123,0,0,8
+37,CoA metabolism,Coenzyme A biosynthesis,Rest_Stim8hr,17,9,0.209120842,5,9,3
+38,MLL2 complex related,"Nucleosome, and Histone methyltransferase complex",across_condition,14,6,0.197325052,5,6,3
+39,unknown,"mRNA cleavage factor complex, and CID domain",across_condition,28,12,0.119288071,9,10,9
+40,Protein phosphatase inhibitor 2,"Protein phosphatase inhibitor 2 (IPP-2), and Myosin VI binding",across_condition,6,4,0.204147814,1,1,4
+41,protein glycosylation,"Glycosylation and related congenital defects, and Synthesis of GDP-mannose",across_condition,87,52,0.210009612,25,46,16
+42,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,16,13,0.151911008,12,3,1
+43,CFAP20/CLASRP complex,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,4,2,0.238000878,2,2,0
+44,unknown,"mixed, incl. GPVI-mediated activation cascade, and Insulin receptor binding",across_condition,12,12,0.256038245,0,12,0
+45,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Rest,14,8,0.085347011,5,5,4
+46,unknown,"P-type ATPase, C-terminal, and Protein dopey",across_condition,6,6,0.307992909,0,6,0
+47,CtBP core complex,"C-terminal binding protein, and Hypoxia-mediated EMT and stemness",across_condition,10,4,0.342530477,4,3,3
+48,tRNA processing,tRNA-splicing ligase complex,across_condition,13,13,0.304322524,13,0,0
+49,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Rest,4,4,0.161703787,4,0,0
+50,Arp2/3 complex,Arp2/3 protein complex,across_condition,8,8,0.14136618,8,0,0
+51,Oxidative phosphorylation,Formation of ATP by chemiosmotic coupling,across_condition,23,23,0.205431944,23,0,0
+52,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,4,4,0.257228975,4,0,0
+53,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Stim8hr,4,4,0.140687233,0,4,0
+54,unknown,SCAR complex,Rest_Stim8hr,43,43,0.226228558,0,43,0
+55,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,5,3,0.068088172,2,1,2
+56,CSDE1/STRAP complex,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,4,2,0.329317143,1,2,1
+57,unknown,"Organellar large ribosomal subunit, and Organellar small ribosomal subunit",Stim48hr,4,4,0.23287042,0,0,4
+58,ribosomal and mitochrondrial function,"Organellar ribosome, and Regulation of mitochondrial gene expression",across_condition,174,174,0.376866249,0,0,174
+59,unknown,"Histone H2B conserved C-terminal lysine ubiquitination, and HULC complex",across_condition,15,9,0.141612779,5,7,3
+60,unknown,"Cul4-RING E3 ubiquitin ligase complex, and Signalosome",Rest_Stim8hr,50,50,0.349609968,0,50,0
+61,unknown,"cullin-RING ubiquitin ligase complex, and Protein neddylation",across_condition,19,19,0.323102294,0,19,0
+62,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,4,4,0.370397895,4,0,0
+63,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,7,7,0.235709735,0,0,7
+64,unknown,"Nucleocytoplasmic carrier activity, and Exportin-2, central domain",across_condition,17,17,0.120660003,0,0,17
+65,EHMT1/EHMT2 complex,"Histone-lysine N-methyltransferase EHMT1/EHMT2, and crotonyl-CoA hydratase activity",across_condition,4,4,0.35643976,0,0,4
+66,EHMT1/EHMT2 complex,"Histone-lysine N-methyltransferase EHMT1/EHMT2, and crotonyl-CoA hydratase activity",across_condition,7,4,0.387326401,3,4,0
+67,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Stim8hr,6,6,0.177928008,0,6,0
+68,tRNA processing,"tRNA methylation, and MafB19-like deaminase",across_condition,22,22,0.310515931,0,22,0
+69,unknown,"mRNA processing, and K Homology domain, type 1",across_condition,9,7,0.079891459,7,1,1
+70,CCR4-NOT and EIF3K,CCR4-NOT complex,across_condition,4,3,0.178357303,2,2,0
+71,XBP1/ERN1 and ZC3H12A,"Photodynamic therapy-induced unfolded protein response, and IRE1-TRAF2-ASK1 complex",across_condition,7,3,0.242382169,2,3,2
+72,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Rest,4,4,0.18615487,4,0,0
+73,translation initiation,"Eukaryotic 43S preinitiation complex, and Eukaryotic translation initiation factor 4F complex",across_condition,7,3,0.11787132,2,3,2
+74,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,11,11,0.260503544,0,0,11
+75,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Rest,4,4,0.247670787,4,0,0
+76,EMC complex,EMC complex,Stim48hr,78,78,0.152865547,0,0,78
+77,unknown,"TSC1-TSC2 complex, and Ribosomal S6 kinase, N-terminal catalytic domain",Stim48hr,84,84,0.252692306,0,0,84
+78,unknown,"BRCA1-C complex, and NIPBL role in DNA damage - Cornelia de Lange syndrome",across_condition,32,31,0.264239663,0,1,31
+79,Th17 differentiation,"T-helper 17 cell lineage commitment, and Regulation of TP53 Expression",across_condition,6,6,0.177683816,0,6,0
+80,unknown,Vesicle tethering involved in exocytosis,Rest_Stim8hr,43,41,0.126226952,1,41,1
+81,core BAF subunits,npBAF complex,across_condition,10,4,0.319798849,2,4,4
+82,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Stim48hr,7,7,0.113588739,0,2,5
+83,unknown,"Preribosome, and Ribosome biogenesis",across_condition,6,6,0.246506686,6,0,0
+84,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Rest,9,9,0.339749689,9,0,0
+85,unknown,JAK-STAT signaling pathway,Stim48hr,7,7,0.186316644,0,0,7
+86,unknown,"mixed, incl. TARP syndrome, and BURAN domain",Stim8hr,12,12,0.121665918,0,12,0
+87,Fanconi anemia complex,"Fanconi anaemia nuclear complex, and Fanconi anemia complementation group I",across_condition,32,32,0.23989506,32,0,0
+88,unknown,Hypusine synthesis from eIF5A-lysine,Rest_Stim8hr,99,99,0.180414179,0,98,1
+89,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Rest,7,7,0.225149634,7,0,0
+90,unknown,Type 2 papillary renal cell carcinoma,Stim48hr,26,25,0.116885635,1,0,25
+91,unknown,Nuclear exosome (RNase complex),across_condition,10,10,0.330395125,10,0,0
+92,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Rest,4,4,0.261328198,4,0,0
+93,unknown,"mostly uncharacterized, incl. Zinc finger, A20-type, and GON domain",Stim8hr_Stim48hr,8,8,0.222468256,0,0,8
+94,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Stim48hr,6,6,0.151005069,0,0,6
+95,unknown,"SAGA-type complex, and TATA-box binding protein",Stim48hr,21,21,0.216204685,0,0,21
+96,unknown,"Fanconi anaemia nuclear complex, and Fanconi anemia complementation group I",across_condition,83,83,0.190192795,0,83,0
+97,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,8,8,0.094331713,0,8,0
+98,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",across_condition,7,7,0.298986119,0,0,7
+99,TCR signaling,"Alpha-beta T cell receptor complex, and Pneumocystosis",Stim48hr,195,195,0.274746976,0,0,195
+100,unknown,"mixed, incl. Basic region leucin zipper, and Early growth response, N-terminal",Stim48hr,13,13,0.177809747,0,0,13
+101,unknown,"Morc, S5 domain 2-like, and Protein localization to heterochromatin",Rest,58,58,0.355402219,58,0,0
+102,unknown,Dolichol-linked oligosaccharide biosynthetic process,Stim48hr,10,10,0.337195329,0,0,10
+103,unknown,"mixed, incl. Fatty acid metabolism, and Regulation of lipid storage",Stim48hr,4,4,0.316033676,0,0,4
+104,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Rest,4,4,0.363111765,4,0,0
+105,unknown,"Clathrin coat, and Presynaptic endocytosis",Rest,37,36,0.350066553,36,1,0
+106,unknown,"Heparan sulfate proteoglycan biosynthetic process, polysaccharide chain biosynthetic process, and Heparan sulfate 6-O-sulfotransferase activity",Rest,70,70,0.279026274,70,0,0
+107,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Stim48hr,9,9,0.313915367,0,0,9
+108,mTORC signaling,"TOR complex, and Tetratricopeptide repeat",across_condition,4,4,0.291124482,0,0,4
+109,unknown,SCAR complex,Stim48hr,15,15,0.271798711,0,0,15
+110,unknown,"mixed, incl. Protein FAM81, and Bacterial Ig-like domain 2",Stim48hr,5,5,0.201673203,0,0,5
+111,Arp2/3 and CCC complex,COMM domain,Stim48hr,10,10,0.34372345,0,0,10

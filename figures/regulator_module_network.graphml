@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="node" attr.name="score" attr.type="long" />
+  <key id="d0" for="node" attr.name="kind" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="BATF">
+      <data key="d0">regulator</data>
+      <data key="d1">9</data>
+    </node>
+    <node id="[Th17 differentiation]">
+      <data key="d0">module</data>
+    </node>
+    <node id="BAHD1">
+      <data key="d0">regulator</data>
+      <data key="d1">9</data>
+    </node>
+    <node id="[MLL2 complex related]">
+      <data key="d0">module</data>
+    </node>
+    <node id="EIF4G2">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="[TCR signaling]">
+      <data key="d0">module</data>
+    </node>
+    <node id="WAC">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="[unknown]">
+      <data key="d0">module</data>
+    </node>
+    <node id="USP22">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="ATXN7L3">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="TRIP12">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="STAT3">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="TIPRL">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="PDCL">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="STRAP">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="[CSDE1/STRAP complex]">
+      <data key="d0">module</data>
+    </node>
+    <node id="INTS12">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="CSDE1">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="PPIH">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="THRAP3">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="TNPO1">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="RNF20">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="GPS2">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="EPC1">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="[CoA metabolism]">
+      <data key="d0">module</data>
+    </node>
+    <node id="PSMF1">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="TSC1">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="NAB2">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="HEXIM1">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="IL4R">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="STAT6">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="PUM1">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="KEAP1">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="GSTCD">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="IFNGR1">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="PTPN2">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="NUP188">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <node id="CCDC93">
+      <data key="d0">regulator</data>
+      <data key="d1">8</data>
+    </node>
+    <edge source="BATF" target="[Th17 differentiation]" />
+    <edge source="[Th17 differentiation]" target="STAT3" />
+    <edge source="[Th17 differentiation]" target="NUP188" />
+    <edge source="BAHD1" target="[MLL2 complex related]" />
+    <edge source="EIF4G2" target="[TCR signaling]" />
+    <edge source="[TCR signaling]" target="USP22" />
+    <edge source="[TCR signaling]" target="ATXN7L3" />
+    <edge source="[TCR signaling]" target="TSC1" />
+    <edge source="WAC" target="[unknown]" />
+    <edge source="[unknown]" target="TRIP12" />
+    <edge source="[unknown]" target="TIPRL" />
+    <edge source="[unknown]" target="PDCL" />
+    <edge source="[unknown]" target="INTS12" />
+    <edge source="[unknown]" target="PPIH" />
+    <edge source="[unknown]" target="THRAP3" />
+    <edge source="[unknown]" target="TNPO1" />
+    <edge source="[unknown]" target="RNF20" />
+    <edge source="[unknown]" target="GPS2" />
+    <edge source="[unknown]" target="PSMF1" />
+    <edge source="[unknown]" target="NAB2" />
+    <edge source="[unknown]" target="HEXIM1" />
+    <edge source="[unknown]" target="IL4R" />
+    <edge source="[unknown]" target="STAT6" />
+    <edge source="[unknown]" target="PUM1" />
+    <edge source="[unknown]" target="KEAP1" />
+    <edge source="[unknown]" target="GSTCD" />
+    <edge source="[unknown]" target="IFNGR1" />
+    <edge source="[unknown]" target="PTPN2" />
+    <edge source="[unknown]" target="CCDC93" />
+    <edge source="STRAP" target="[CSDE1/STRAP complex]" />
+    <edge source="[CSDE1/STRAP complex]" target="CSDE1" />
+    <edge source="EPC1" target="[CoA metabolism]" />
+  </graph>
+</graphml>
